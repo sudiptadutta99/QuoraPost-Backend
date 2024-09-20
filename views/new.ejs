@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create a new post</title>
+    <title>Create a New Post</title>
+    <link rel="stylesheet" href="/newStyle.css"> 
+    
 </head>
 <body>
-    <form action="/posts" method="post">
-        <input type="text" placeholder="enter username" name="username">
-        <textarea placeholder="write your content" name="content"></textarea>
-        <button>submit</button>
-    </form>
+
+    <div class="form-container">
+        <h1>Create a New Post</h1>
+        <form action="/posts" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="content">Content</label>
+            <textarea id="content" name="content" placeholder="Write your content" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
 </body>
 </html>
