@@ -30,6 +30,13 @@ The project is live at: [Quora Post Backend](https://quora-post-backend.vercel.a
    ```bash
    git clone https://github.com/sudiptadutt99/QuoraPost-Backend.git
    cd QuoraPost-Backend
+2. **Install dependencies**:
+    npm install
+3. **Start the server**:
+    npm start
+4. **Visit the app**: 
+    Open your browser and go to http://localhost:8080 to view and interact with the app.
+
 ## Contributing
 
 Contributions are welcome! Whether it's improving the UI, adding new features, or fixing bugs, feel free to fork the repository and submit a pull request with your changes.
@@ -37,11 +44,6 @@ Contributions are welcome! Whether it's improving the UI, adding new features, o
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspired by the original Simon game created by Ralph H. Baer and Howard J. Morrison
-- Thanks to all contributors who help improve this project
 
 ## 👨‍💻 Author
 
